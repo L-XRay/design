@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete FactoryMethod">
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/pom.xml" afterDir="false" />
+    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete AbstractFactory">
+      <change afterPath="$PROJECT_DIR$/Builder/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/StoreFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/StoreFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/card/IQiYiCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/card/IQiYiCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/card/IQiYiCardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/card/IQiYiCardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/coupon/CouponInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/coupon/CouponInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/coupon/CouponResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/coupon/CouponResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/coupon/CouponService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/coupon/CouponService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/goods/DeliverReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/goods/DeliverReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/goods/GoodsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/goods/GoodsInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/goods/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/goods/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/store/ICommodity.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/store/ICommodity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/store/impl/CardCommodityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/store/impl/CardCommodityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/store/impl/CouponCommodityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/store/impl/CouponCommodityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/store/impl/GoodsCommodityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/main/java/cn/ray/design/design/store/impl/GoodsCommodityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryMethod/src/test/java/cn/ray/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryMethod/src/test/java/cn/ray/design/design/test/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,20 +34,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/ray/Source/design/Builder/src/main/java/cn/ray/design",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_CacheService">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Builder/src/main/java/cn/ray/design" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiTest.test_Builder">
+    <configuration name="ApiTest.test_Builder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Builder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.ray.design" />
+      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
+      <option name="METHOD_NAME" value="test_Builder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest.test_CacheService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AbstractFactory" />
       <extension name="coverage">
@@ -97,6 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_Builder" />
         <item itemvalue="JUnit.ApiTest.test_CacheService" />
         <item itemvalue="JUnit.ApiTest.test_commodity" />
       </list>
@@ -112,7 +120,7 @@
       <updated>1659026703324</updated>
       <workItem from="1659026704694" duration="3206000" />
       <workItem from="1659030454466" duration="198000" />
-      <workItem from="1659097946401" duration="4110000" />
+      <workItem from="1659097946401" duration="5637000" />
     </task>
     <task id="LOCAL-00001" summary="complete FactoryMethod">
       <created>1659030496234</created>
@@ -121,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659030496234</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="complete AbstractFactory">
+      <created>1659105442945</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659105442945</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +155,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete FactoryMethod" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete FactoryMethod" />
+    <MESSAGE value="complete AbstractFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete AbstractFactory" />
   </component>
 </project>
