@@ -14,6 +14,7 @@
         <module>Builder</module>
         <module>Prototype</module>
         <module>Singleton</module>
+        <module>Adapter</module>
     </modules>
 
     <properties>

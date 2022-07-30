@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Singleton">
-      <change afterPath="$PROJECT_DIR$/Singleton/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton/src/main/java/cn/ray/design/Singleton_00.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton/src/main/java/cn/ray/design/Singleton_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton/src/main/java/cn/ray/design/Singleton_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton/src/main/java/cn/ray/design/Singleton_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton/src/main/java/cn/ray/design/Singleton_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton/src/main/java/cn/ray/design/Singleton_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton/src/main/java/cn/ray/design/Singleton_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton/src/main/java/cn/ray/design/Singleton_07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton/src/test/java/cn/ray/design/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Adapter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -44,22 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ray/Source/design/Singleton/src/main/java/cn/ray/design&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/ray/Source/design/Adapter/src/main/java/cn/ray/design/impl",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Adapter/src/main/java/cn/ray/design/impl" />
+      <recent name="$PROJECT_DIR$/Adapter/src/main/java/cn/ray/design" />
       <recent name="$PROJECT_DIR$/Singleton/src/main/java/cn/ray/design" />
       <recent name="$PROJECT_DIR$/Prototype/src/main/java/cn/ray/design" />
       <recent name="$PROJECT_DIR$/Builder/src/main/java/cn/ray/design" />
@@ -68,7 +62,7 @@
       <recent name="cn.ray.design" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_QuestionBank">
+  <component name="RunManager" selected="JUnit.ApiTest.test_itfAdapter">
     <configuration name="ApiTest.test_Builder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Builder" />
       <extension name="coverage">
@@ -101,6 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiTest.test_MQAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Adapter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.ray.design" />
+      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
+      <option name="METHOD_NAME" value="test_MQAdapter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest.test_QuestionBank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Prototype" />
       <extension name="coverage">
@@ -117,17 +127,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_commodity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FactoryMethod" />
+    <configuration name="ApiTest.test_itfAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Adapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ray.design.test.*" />
+          <option name="PATTERN" value="cn.ray.design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.ray.design.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.ray.design.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_commodity" />
+      <option name="PACKAGE_NAME" value="cn.ray.design" />
+      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
+      <option name="METHOD_NAME" value="test_itfAdapter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_itfAdapter" />
+        <item itemvalue="JUnit.ApiTest.test_MQAdapter" />
         <item itemvalue="JUnit.ApiTest.test_QuestionBank" />
         <item itemvalue="JUnit.ApiTest.test_Builder" />
         <item itemvalue="JUnit.ApiTest.test_CacheService" />
-        <item itemvalue="JUnit.ApiTest.test_commodity" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +167,8 @@
       <workItem from="1659119820345" duration="43000" />
       <workItem from="1659120080704" duration="116000" />
       <workItem from="1659120403039" duration="235000" />
+      <workItem from="1659120681438" duration="204000" />
+      <workItem from="1659147042924" duration="1742000" />
     </task>
     <task id="LOCAL-00001" summary="complete FactoryMethod">
       <created>1659030496234</created>
@@ -178,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659107175817</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete Singleton">
+      <created>1659120858622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659120858622</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
