@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Singleton">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adapter/pom.xml" afterDir="false" />
+    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Adapter">
+      <change afterPath="$PROJECT_DIR$/Bridge/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -43,7 +43,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/ray/Source/design/Adapter/src/main/java/cn/ray/design/impl",
+    "last_opened_file_path": "/Users/ray/Source/design",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,11 +58,14 @@
       <recent name="$PROJECT_DIR$/Prototype/src/main/java/cn/ray/design" />
       <recent name="$PROJECT_DIR$/Builder/src/main/java/cn/ray/design" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Bridge/src/test/java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.ray.design" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_itfAdapter">
+  <component name="RunManager" selected="JUnit.ApiTest.test_pay">
     <configuration name="ApiTest.test_Builder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Builder" />
       <extension name="coverage">
@@ -79,27 +82,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_CacheService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AbstractFactory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ray.design.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.ray.design" />
-      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
-      <option name="METHOD_NAME" value="test_CacheService" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiTest.test_MQAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Adapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="PATTERN" value="cn.ray.design.channel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,7 +102,7 @@
       <module name="Prototype" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="PATTERN" value="cn.ray.design.channel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,7 +118,7 @@
       <module name="Adapter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="PATTERN" value="cn.ray.design.channel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,13 +130,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiTest.test_pay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bridge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.ray.design" />
+      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
+      <option name="METHOD_NAME" value="test_pay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_pay" />
         <item itemvalue="JUnit.ApiTest.test_itfAdapter" />
         <item itemvalue="JUnit.ApiTest.test_MQAdapter" />
         <item itemvalue="JUnit.ApiTest.test_QuestionBank" />
         <item itemvalue="JUnit.ApiTest.test_Builder" />
-        <item itemvalue="JUnit.ApiTest.test_CacheService" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +171,8 @@
       <workItem from="1659120080704" duration="116000" />
       <workItem from="1659120403039" duration="235000" />
       <workItem from="1659120681438" duration="204000" />
-      <workItem from="1659147042924" duration="1742000" />
+      <workItem from="1659147042924" duration="1772000" />
+      <workItem from="1659176861499" duration="3707000" />
     </task>
     <task id="LOCAL-00001" summary="complete FactoryMethod">
       <created>1659030496234</created>
@@ -198,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659120858622</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="complete Adapter">
+      <created>1659154816164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659154816164</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +232,7 @@
     <MESSAGE value="complete Builder" />
     <MESSAGE value="complete Single" />
     <MESSAGE value="complete Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete Singleton" />
+    <MESSAGE value="complete Adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete Adapter" />
   </component>
 </project>
