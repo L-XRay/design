@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Bridge">
-      <change afterPath="$PROJECT_DIR$/Combination/pom.xml" afterDir="false" />
+    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="fix images">
+      <change afterPath="$PROJECT_DIR$/Decorator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -43,14 +43,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/ray/Source/design/Combination/src/main/java/cn/ray/design",
+    "last_opened_file_path": "/Users/ray/Source/design",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,7 +68,23 @@
       <recent name="cn.ray.design" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_tree">
+  <component name="RunManager" selected="JUnit.ApiTest.test_LoginSsoDecorator">
+    <configuration name="ApiTest.test_LoginSsoDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Decorator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.ray.design" />
+      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
+      <option name="METHOD_NAME" value="test_LoginSsoDecorator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest.test_MQAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Adapter" />
       <extension name="coverage">
@@ -80,22 +96,6 @@
       <option name="PACKAGE_NAME" value="cn.ray.design" />
       <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
       <option name="METHOD_NAME" value="test_MQAdapter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.test_QuestionBank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Prototype" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ray.design.channel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.ray.design" />
-      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
-      <option name="METHOD_NAME" value="test_QuestionBank" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_LoginSsoDecorator" />
         <item itemvalue="JUnit.ApiTest.test_tree" />
         <item itemvalue="JUnit.ApiTest.test_pay" />
         <item itemvalue="JUnit.ApiTest.test_itfAdapter" />
         <item itemvalue="JUnit.ApiTest.test_MQAdapter" />
-        <item itemvalue="JUnit.ApiTest.test_QuestionBank" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +176,8 @@
       <workItem from="1659120681438" duration="204000" />
       <workItem from="1659147042924" duration="1772000" />
       <workItem from="1659176861499" duration="4124000" />
-      <workItem from="1659262907969" duration="9484000" />
+      <workItem from="1659262907969" duration="9760000" />
+      <workItem from="1659360510134" duration="2228000" />
     </task>
     <task id="LOCAL-00001" summary="complete FactoryMethod">
       <created>1659030496234</created>
@@ -220,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659183324803</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="complete Combination">
+      <created>1659293942986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659293942986</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix images">
+      <created>1659294100928</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659294100928</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +260,8 @@
     <MESSAGE value="complete Singleton" />
     <MESSAGE value="complete Adapter" />
     <MESSAGE value="complete Bridge" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete Bridge" />
+    <MESSAGE value="complete Combination" />
+    <MESSAGE value="fix images" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix images" />
   </component>
 </project>
