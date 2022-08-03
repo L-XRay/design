@@ -18,6 +18,7 @@
         <module>Bridge</module>
         <module>Combination</module>
         <module>Decorator</module>
+        <module>Appearance</module>
     </modules>
 
     <properties>
