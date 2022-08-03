@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Appearance">
-      <change afterPath="$PROJECT_DIR$/Appearance/Appearance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flyweight/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appearance" beforeDir="false" afterPath="$PROJECT_DIR$/Appearance" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Appearance" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -61,9 +62,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "spring.configuration.checksum": "a1c58e94227389415de133efdf78ea6e"
   },
   "keyToStringList": {
@@ -88,7 +90,7 @@
       <recent name="cn.ray.design" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppearanceApplication">
+  <component name="RunManager" selected="JUnit.ApiTest.test_queryActivityInfo">
     <configuration name="ApiTest.test_LoginSsoDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Decorator" />
       <extension name="coverage">
@@ -100,22 +102,6 @@
       <option name="PACKAGE_NAME" value="cn.ray.design" />
       <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
       <option name="METHOD_NAME" value="test_LoginSsoDecorator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.test_MQAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Adapter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ray.design.channel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.ray.design" />
-      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
-      <option name="METHOD_NAME" value="test_MQAdapter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,6 +134,22 @@
       <option name="PACKAGE_NAME" value="cn.ray.design" />
       <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
       <option name="METHOD_NAME" value="test_pay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_queryActivityInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flyweight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.ray.design" />
+      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
+      <option name="METHOD_NAME" value="test_queryActivityInfo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -193,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_queryActivityInfo" />
         <item itemvalue="JUnit.ApiTest.test_LoginSsoDecorator" />
         <item itemvalue="JUnit.ApiTest.test_tree" />
         <item itemvalue="JUnit.ApiTest.test_pay" />
         <item itemvalue="JUnit.ApiTest.test_itfAdapter" />
-        <item itemvalue="JUnit.ApiTest.test_MQAdapter" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +228,7 @@
       <workItem from="1659366779235" duration="1223000" />
       <workItem from="1659487706200" duration="7333000" />
       <workItem from="1659500572889" duration="257000" />
-      <workItem from="1659525903772" duration="925000" />
+      <workItem from="1659525903772" duration="2879000" />
     </task>
     <task id="LOCAL-00001" summary="complete FactoryMethod">
       <created>1659030496234</created>
@@ -312,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659525972944</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="complete Appearance">
+      <created>1659527053070</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659527053070</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,5 +351,9 @@
     <MESSAGE value="complete Decorator" />
     <MESSAGE value="complete Appearance" />
     <option name="LAST_COMMIT_MESSAGE" value="complete Appearance" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

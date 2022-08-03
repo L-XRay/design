@@ -19,6 +19,8 @@
         <module>Combination</module>
         <module>Decorator</module>
         <module>Appearance</module>
+        <module>Flyweight</module>
+        <module>Flyweight</module>
     </modules>
 
     <properties>
