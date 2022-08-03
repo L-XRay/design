@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Flyweight">
+    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Appearance">
+      <change afterPath="$PROJECT_DIR$/Proxy/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Appearance" beforeDir="false" afterPath="$PROJECT_DIR$/Appearance" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appearance" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,11 +58,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/ray/Source/design/Appearance",
+    "last_opened_file_path": "/Users/ray/Source/design/Proxy/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -75,11 +79,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Proxy/src/main/resources" />
       <recent name="$PROJECT_DIR$/Appearance" />
       <recent name="$PROJECT_DIR$/Combination/src/main/java/cn/ray/design" />
       <recent name="$PROJECT_DIR$/Adapter/src/main/java/cn/ray/design/impl" />
       <recent name="$PROJECT_DIR$/Adapter/src/main/java/cn/ray/design" />
-      <recent name="$PROJECT_DIR$/Singleton/src/main/java/cn/ray/design" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Bridge/src/test/java" />
@@ -88,7 +92,23 @@
       <recent name="cn.ray.design" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_queryActivityInfo">
+  <component name="RunManager" selected="JUnit.ApiTest.test_IUserDao">
+    <configuration name="ApiTest.test_IUserDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.ray.design" />
+      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
+      <option name="METHOD_NAME" value="test_IUserDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest.test_LoginSsoDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Decorator" />
       <extension name="coverage">
@@ -100,22 +120,6 @@
       <option name="PACKAGE_NAME" value="cn.ray.design" />
       <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
       <option name="METHOD_NAME" value="test_LoginSsoDecorator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.test_itfAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Adapter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ray.design.channel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.ray.design" />
-      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
-      <option name="METHOD_NAME" value="test_itfAdapter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -193,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_IUserDao" />
         <item itemvalue="JUnit.ApiTest.test_queryActivityInfo" />
         <item itemvalue="JUnit.ApiTest.test_LoginSsoDecorator" />
         <item itemvalue="JUnit.ApiTest.test_tree" />
         <item itemvalue="JUnit.ApiTest.test_pay" />
-        <item itemvalue="JUnit.ApiTest.test_itfAdapter" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +230,7 @@
       <workItem from="1659366779235" duration="1223000" />
       <workItem from="1659487706200" duration="7333000" />
       <workItem from="1659500572889" duration="257000" />
-      <workItem from="1659525903772" duration="3313000" />
+      <workItem from="1659525903772" duration="7611000" />
     </task>
     <task id="LOCAL-00001" summary="complete FactoryMethod">
       <created>1659030496234</created>
@@ -326,7 +330,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659528824188</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="complete Flyweight">
+      <created>1659529233387</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659529233387</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix">
+      <created>1659529359524</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659529359524</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,9 +353,38 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="4ba2cfe7-c359-4439-aa4e-57975837997d">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -354,9 +401,10 @@
     <MESSAGE value="complete Combination" />
     <MESSAGE value="fix images" />
     <MESSAGE value="complete Decorator" />
-    <MESSAGE value="complete Appearance" />
     <MESSAGE value="complete Flyweight" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete Flyweight" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="complete Appearance" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete Appearance" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

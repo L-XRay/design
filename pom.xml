@@ -20,6 +20,7 @@
         <module>Decorator</module>
         <module>Flyweight</module>
         <module>Appearance</module>
+        <module>Proxy</module>
     </modules>
 
     <properties>
