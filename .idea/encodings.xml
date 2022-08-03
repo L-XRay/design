@@ -5,9 +5,7 @@
     <file url="file://$PROJECT_DIR$/Adapter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Appearance/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Appearance/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Appearance1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Appearance1/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Appearance1/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Appearance/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Bridge/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Bridge/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Combination/src/main/java" charset="UTF-8" />

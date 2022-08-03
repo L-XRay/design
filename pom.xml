@@ -18,9 +18,8 @@
         <module>Bridge</module>
         <module>Combination</module>
         <module>Decorator</module>
+        <module>Flyweight</module>
         <module>Appearance</module>
-        <module>Flyweight</module>
-        <module>Flyweight</module>
     </modules>
 
     <properties>

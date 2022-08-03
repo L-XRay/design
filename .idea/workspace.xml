@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Appearance">
-      <change afterPath="$PROJECT_DIR$/Flyweight/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Flyweight">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Appearance" beforeDir="false" afterPath="$PROJECT_DIR$/Appearance" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +226,7 @@
       <workItem from="1659366779235" duration="1223000" />
       <workItem from="1659487706200" duration="7333000" />
       <workItem from="1659500572889" duration="257000" />
-      <workItem from="1659525903772" duration="2879000" />
+      <workItem from="1659525903772" duration="3313000" />
     </task>
     <task id="LOCAL-00001" summary="complete FactoryMethod">
       <created>1659030496234</created>
@@ -321,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659527053070</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="complete Flyweight">
+      <created>1659528824188</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659528824188</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +355,8 @@
     <MESSAGE value="fix images" />
     <MESSAGE value="complete Decorator" />
     <MESSAGE value="complete Appearance" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete Appearance" />
+    <MESSAGE value="complete Flyweight" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete Flyweight" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
