@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="fix images">
-      <change afterPath="$PROJECT_DIR$/Decorator/pom.xml" afterDir="false" />
+    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Decorator">
+      <change afterPath="$PROJECT_DIR$/Appearance/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Appearance/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Appearance/src/main/java/cn/ray/design/appearance/AppearanceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Appearance/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Appearance/src/test/java/cn/ray/design/appearance/AppearanceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +25,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Appearance" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,6 +44,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -50,7 +60,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "a1c58e94227389415de133efdf78ea6e"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,7 +79,7 @@
       <recent name="cn.ray.design" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_LoginSsoDecorator">
+  <component name="RunManager" selected="Spring Boot.AppearanceApplication">
     <configuration name="ApiTest.test_LoginSsoDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Decorator" />
       <extension name="coverage">
@@ -149,6 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppearanceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Appearance" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ray.design.appearance.AppearanceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ApiTest.test_LoginSsoDecorator" />
@@ -160,6 +178,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="" />
@@ -177,7 +198,9 @@
       <workItem from="1659147042924" duration="1772000" />
       <workItem from="1659176861499" duration="4124000" />
       <workItem from="1659262907969" duration="9760000" />
-      <workItem from="1659360510134" duration="2228000" />
+      <workItem from="1659360510134" duration="2422000" />
+      <workItem from="1659366779235" duration="1223000" />
+      <workItem from="1659487706200" duration="6629000" />
     </task>
     <task id="LOCAL-00001" summary="complete FactoryMethod">
       <created>1659030496234</created>
@@ -235,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659294100928</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="complete Decorator">
+      <created>1659362771805</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659362771805</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +292,7 @@
     <MESSAGE value="complete Bridge" />
     <MESSAGE value="complete Combination" />
     <MESSAGE value="fix images" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix images" />
+    <MESSAGE value="complete Decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete Decorator" />
   </component>
 </project>
