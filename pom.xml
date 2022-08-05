@@ -21,6 +21,7 @@
         <module>Flyweight</module>
         <module>Appearance</module>
         <module>Proxy</module>
+        <module>Chain</module>
     </modules>
 
     <properties>
