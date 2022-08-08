@@ -23,6 +23,7 @@
         <module>Proxy</module>
         <module>Chain</module>
         <module>Command</module>
+        <module>Iterator</module>
     </modules>
 
     <properties>

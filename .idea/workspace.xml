@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Chain">
-      <change afterPath="$PROJECT_DIR$/Command/pom.xml" afterDir="false" />
+    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Command">
+      <change afterPath="$PROJECT_DIR$/Iterator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -45,36 +45,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ray/Source/design/Proxy/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;649f866bb44d13baabe995677f2b155d&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/ray/Source/design",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "spring.configuration.checksum": "649f866bb44d13baabe995677f2b155d"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Proxy/src/main/resources" />
@@ -90,7 +90,7 @@
       <recent name="cn.ray.design" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test">
+  <component name="RunManager" selected="JUnit.ApiTest.test_iterator">
     <configuration name="ApiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Command" />
       <extension name="coverage">
@@ -139,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_LoginSsoDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Decorator" />
+    <configuration name="ApiTest.test_iterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Iterator" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.ray.design.*" />
@@ -149,7 +149,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.ray.design" />
       <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
-      <option name="METHOD_NAME" value="test_LoginSsoDecorator" />
+      <option name="METHOD_NAME" value="test_iterator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_iterator" />
         <item itemvalue="JUnit.ApiTest.test" />
         <item itemvalue="JUnit.ApiTest.test_AuthLink" />
         <item itemvalue="JUnit.ApiTest.test_IUserDao" />
         <item itemvalue="JUnit.ApiTest.test_queryActivityInfo" />
-        <item itemvalue="JUnit.ApiTest.test_LoginSsoDecorator" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +231,9 @@
       <workItem from="1659525903772" duration="7709000" />
       <workItem from="1659631141337" duration="383000" />
       <workItem from="1659656354889" duration="6345000" />
-      <workItem from="1659707334824" duration="2557000" />
+      <workItem from="1659707334824" duration="2591000" />
+      <workItem from="1659710574840" duration="3000" />
+      <workItem from="1659936639211" duration="5207000" />
     </task>
     <task id="LOCAL-00001" summary="complete FactoryMethod">
       <created>1659030496234</created>
@@ -380,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659665908670</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="complete Command">
+      <created>1659710554845</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659710554845</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +451,8 @@
     <MESSAGE value="complete Proxy" />
     <MESSAGE value="complete Appearance" />
     <MESSAGE value="complete Chain" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete Chain" />
+    <MESSAGE value="complete Command" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete Command" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
