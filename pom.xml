@@ -24,6 +24,7 @@
         <module>Chain</module>
         <module>Command</module>
         <module>Iterator</module>
+        <module>Mediator</module>
     </modules>
 
     <properties>
