@@ -22,16 +22,16 @@ public class ApiTest {
 
         ConfigOriginator configOriginator = new ConfigOriginator();
 
-        configOriginator.setConfigFile(new ConfigFile("1000001", "配置内容A=哈哈", new Date(), "小傅哥"));
+        configOriginator.setConfigFile(new ConfigFile("1000001", "配置内容A=哈哈", new Date(), "Ray"));
         admin.append(configOriginator.saveMemento()); // 保存配置
 
-        configOriginator.setConfigFile(new ConfigFile("1000002", "配置内容A=嘻嘻", new Date(), "小傅哥"));
+        configOriginator.setConfigFile(new ConfigFile("1000002", "配置内容A=嘻嘻", new Date(), "Ray"));
         admin.append(configOriginator.saveMemento()); // 保存配置
 
-        configOriginator.setConfigFile(new ConfigFile("1000003", "配置内容A=么么", new Date(), "小傅哥"));
+        configOriginator.setConfigFile(new ConfigFile("1000003", "配置内容A=么么", new Date(), "Ray"));
         admin.append(configOriginator.saveMemento()); // 保存配置
 
-        configOriginator.setConfigFile(new ConfigFile("1000004", "配置内容A=嘿嘿", new Date(), "小傅哥"));
+        configOriginator.setConfigFile(new ConfigFile("1000004", "配置内容A=嘿嘿", new Date(), "Ray"));
         admin.append(configOriginator.saveMemento()); // 保存配置
 
         // 历史配置(回滚)
