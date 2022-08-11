@@ -25,6 +25,7 @@
         <module>Command</module>
         <module>Iterator</module>
         <module>Mediator</module>
+        <module>Memo</module>
     </modules>
 
     <properties>
