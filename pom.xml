@@ -26,6 +26,7 @@
         <module>Iterator</module>
         <module>Mediator</module>
         <module>Memo</module>
+        <module>Observer</module>
     </modules>
 
     <properties>

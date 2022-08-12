@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Mediator">
-      <change afterPath="$PROJECT_DIR$/Memo/pom.xml" afterDir="false" />
+    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Memo">
+      <change afterPath="$PROJECT_DIR$/Observer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -92,7 +92,7 @@
   </component>
   <component name="RunManager" selected="JUnit.ApiTest.test (1)">
     <configuration name="ApiTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Memo" />
+      <module name="Observer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.ray.design.*" />
@@ -111,7 +111,23 @@
       <module name="Command" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="PATTERN" value="cn.ray.design.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.ray.design" />
+      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Memo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ray.design.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,7 +143,7 @@
       <module name="Chain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="PATTERN" value="cn.ray.design.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,7 +159,7 @@
       <module name="Iterator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="PATTERN" value="cn.ray.design.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,7 +175,7 @@
       <module name="Mediator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="PATTERN" value="cn.ray.design.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,10 +212,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ApiTest.test (1)" />
+        <item itemvalue="JUnit.ApiTest.test (1)" />
         <item itemvalue="JUnit.ApiTest.test_queryUserInfoById" />
         <item itemvalue="JUnit.ApiTest.test_iterator" />
         <item itemvalue="JUnit.ApiTest.test" />
-        <item itemvalue="JUnit.ApiTest.test_AuthLink" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +253,7 @@
       <workItem from="1659975674405" duration="1950000" />
       <workItem from="1660022927644" duration="21000" />
       <workItem from="1660064779909" duration="6568000" />
-      <workItem from="1660183809749" duration="3515000" />
+      <workItem from="1660183809749" duration="7736000" />
     </task>
     <task id="LOCAL-00001" summary="complete FactoryMethod">
       <created>1659030496234</created>
@@ -407,7 +423,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660075474711</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="complete Memo">
+      <created>1660194631210</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1660194631210</updated>
+    </task>
+    <task id="LOCAL-00026" summary="complete Memo">
+      <created>1660194672858</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1660194672858</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +502,8 @@
     <MESSAGE value="complete Command" />
     <MESSAGE value="complete Iterator" />
     <MESSAGE value="complete Mediator" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete Mediator" />
+    <MESSAGE value="complete Memo" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete Memo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
