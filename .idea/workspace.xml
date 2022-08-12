@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Memo">
-      <change afterPath="$PROJECT_DIR$/Observer/pom.xml" afterDir="false" />
+    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Observer">
+      <change afterPath="$PROJECT_DIR$/Status/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -21,6 +21,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -90,28 +91,12 @@
       <recent name="cn.ray.design" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test (1)">
-    <configuration name="ApiTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApiTest.test_Refuse2Revoke">
+    <configuration name="ApiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Observer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ray.design.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.ray.design" />
-      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Command" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.ray.design.service.*" />
+          <option name="PATTERN" value="cn.ray.design.status.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,49 +124,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_AuthLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chain" />
+    <configuration name="ApiTest.test_Editing2Arraignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Status" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ray.design.service.*" />
+          <option name="PATTERN" value="cn.ray.design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.ray.design" />
       <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
-      <option name="METHOD_NAME" value="test_AuthLink" />
+      <option name="METHOD_NAME" value="test_Editing2Arraignment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_iterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Iterator" />
+    <configuration name="ApiTest.test_Editing2Open" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Status" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ray.design.service.*" />
+          <option name="PATTERN" value="cn.ray.design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.ray.design" />
       <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
-      <option name="METHOD_NAME" value="test_iterator" />
+      <option name="METHOD_NAME" value="test_Editing2Open" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_queryUserInfoById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Mediator" />
+    <configuration name="ApiTest.test_Refuse2Doing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Status" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.ray.design.service.*" />
+          <option name="PATTERN" value="cn.ray.design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.ray.design" />
       <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
-      <option name="METHOD_NAME" value="test_queryUserInfoById" />
+      <option name="METHOD_NAME" value="test_Refuse2Doing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_Refuse2Revoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Status" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.ray.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.ray.design" />
+      <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
+      <option name="METHOD_NAME" value="test_Refuse2Revoke" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_Refuse2Revoke" />
+        <item itemvalue="JUnit.ApiTest.test_Refuse2Doing" />
+        <item itemvalue="JUnit.ApiTest.test_Editing2Open" />
+        <item itemvalue="JUnit.ApiTest.test_Editing2Arraignment" />
         <item itemvalue="JUnit.ApiTest.test (1)" />
-        <item itemvalue="JUnit.ApiTest.test (1)" />
-        <item itemvalue="JUnit.ApiTest.test_queryUserInfoById" />
-        <item itemvalue="JUnit.ApiTest.test_iterator" />
-        <item itemvalue="JUnit.ApiTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -254,6 +255,8 @@
       <workItem from="1660022927644" duration="21000" />
       <workItem from="1660064779909" duration="6568000" />
       <workItem from="1660183809749" duration="7736000" />
+      <workItem from="1660268320173" duration="104000" />
+      <workItem from="1660293558112" duration="6625000" />
     </task>
     <task id="LOCAL-00001" summary="complete FactoryMethod">
       <created>1659030496234</created>
@@ -437,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660194672858</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="complete Observer">
+      <created>1660268340527</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1660268340527</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +513,8 @@
     <MESSAGE value="complete Iterator" />
     <MESSAGE value="complete Mediator" />
     <MESSAGE value="complete Memo" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete Memo" />
+    <MESSAGE value="complete Observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete Observer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

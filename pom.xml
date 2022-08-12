@@ -27,6 +27,7 @@
         <module>Mediator</module>
         <module>Memo</module>
         <module>Observer</module>
+        <module>Status</module>
     </modules>
 
     <properties>
