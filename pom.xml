@@ -28,6 +28,7 @@
         <module>Memo</module>
         <module>Observer</module>
         <module>Status</module>
+        <module>Strategy</module>
     </modules>
 
     <properties>
