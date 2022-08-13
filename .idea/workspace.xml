@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Status">
-      <change afterPath="$PROJECT_DIR$/Strategy/pom.xml" afterDir="false" />
+    <list default="true" id="58b65420-16db-4670-858d-94dca8030371" name="Changes" comment="complete Strategy">
+      <change afterPath="$PROJECT_DIR$/Template/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -91,7 +91,7 @@
       <recent name="cn.ray.design" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiTest.test_ZK">
+  <component name="RunManager" selected="JUnit.ApiTest.test_NetMall">
     <configuration name="ApiTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Memo" />
       <extension name="coverage">
@@ -140,8 +140,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_Refuse2Revoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Status" />
+    <configuration name="ApiTest.test_NetMall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Template" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.ray.design.*" />
@@ -150,7 +150,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.ray.design" />
       <option name="MAIN_CLASS_NAME" value="cn.ray.design.ApiTest" />
-      <option name="METHOD_NAME" value="test_Refuse2Revoke" />
+      <option name="METHOD_NAME" value="test_NetMall" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.test_NetMall" />
         <item itemvalue="JUnit.ApiTest.test_ZK" />
         <item itemvalue="JUnit.ApiTest.test_ZJ" />
         <item itemvalue="JUnit.ApiTest.test_NY" />
         <item itemvalue="JUnit.ApiTest.test_MJ" />
-        <item itemvalue="JUnit.ApiTest.test_Refuse2Revoke" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +257,7 @@
       <workItem from="1660183809749" duration="7736000" />
       <workItem from="1660268320173" duration="104000" />
       <workItem from="1660293558112" duration="6906000" />
-      <workItem from="1660378655967" duration="2650000" />
+      <workItem from="1660378655967" duration="5905000" />
     </task>
     <task id="LOCAL-00001" summary="complete FactoryMethod">
       <created>1659030496234</created>
@@ -455,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660322282843</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="complete Strategy">
+      <created>1660381343682</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1660381343682</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +530,8 @@
     <MESSAGE value="complete Memo" />
     <MESSAGE value="complete Observer" />
     <MESSAGE value="complete Status" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete Status" />
+    <MESSAGE value="complete Strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete Strategy" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
